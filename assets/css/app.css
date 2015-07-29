@@ -1,0 +1,31 @@
+.wp-caption {
+  padding: 5px;
+}
+
+.wp-caption-text {
+  text-align: center;
+}
+
+.sticky {
+  text-align: left;
+}
+
+.gallery-caption {
+  text-align: center;
+}
+
+.bypostauthor {
+  text-align: center;
+}
+
+.alignright {
+  text-align: right;
+}
+
+.alignleft {
+  text-align: left;
+}
+
+.aligncenter {
+  text-align: center;
+}
