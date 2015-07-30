@@ -1,4 +1,4 @@
-This is the repository for the Three Sugars WordPress theme.
+# This is the repository for the Three Sugars WordPress theme.
 
 I'm using Grunt to automate CSS & JS compilation, livereload when making changes and Bower to manage libraries such as Bootstrap, Modernizr etc.
 
