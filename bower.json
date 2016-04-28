@@ -1,0 +1,17 @@
+{
+  "name": "wordpress-base-theme",
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "https://github.com/robinlloyd/wordpress-base-theme",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.6"
+  }
+}

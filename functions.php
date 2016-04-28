@@ -31,12 +31,12 @@ add_image_size( "thumb", 400, 400, true );
 /*-------------------------------------------------------------*/
 /* Load CSS
 ---------------------------------------------------------------*/
-function threesugars_styles() {
-    //register styles for our theme
-    wp_register_style( 'threesugars-appstyle', get_template_directory_uri() . '/assets/css/app.css', array(), 'all');
-    wp_enqueue_style( 'threesugars-appstyle' );
-}
-add_action( 'wp_enqueue_scripts', 'threesugars_styles' );
+// function threesugars_styles() {
+//     //register styles for our theme
+//     wp_register_style( 'threesugars-appstyle', get_template_directory_uri() . '/assets/css/app.css', array(), 'all');
+//     wp_enqueue_style( 'threesugars-appstyle' );
+// }
+// add_action( 'wp_enqueue_scripts', 'threesugars_styles' );
 
 
 /*-------------------------------------------------------------*/
