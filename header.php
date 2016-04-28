@@ -5,6 +5,10 @@
 
     <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/assets/css/main.css">
 
+    <!-- build:css /assets/css/vendor.css -->
+    <link rel="stylesheet" href="/bower_components/bootstrap/dist/css/bootstrap.css">
+    <!-- endbuild -->
+
     <link rel="profile" href="http://gmpg.org/xfn/11" />
     <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
 
