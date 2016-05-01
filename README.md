@@ -1,9 +1,11 @@
-# This is the repository for the Three Sugars WordPress theme.
+# Base WordPress theme automation
 
-I'm using Grunt to automate CSS & JS compilation, livereload when making changes and Bower to manage libraries such as Bootstrap, Modernizr etc.
+Using gulp, this helps with compiling Sass, livereload and building theme files into a separate dist folder for upload.
 
-### Automation & Livereload
+## Installation
 
-Ensure you have Terminal or equivalent open and navigate to the Three Sugars theme directory. Then run `grunt`
-
-This will start watching for any changes in your CSS, JS and PHP files and will livereload as soon as it detects a change
+* Clone the repository into your WordPress installation's `themes` folder.
+* Rename the theme to whatever you want, remember to change this in style.css also.
+* Open up terminal at the theme directory and run `gulp` to start watching files.
+* Install the chrome livereload plugin, click it so that livereload will work.
+* For exporting for upload use `gulp build` which will output the theme files to the `dist` folder.
