@@ -1,7 +1,7 @@
 var gulp = require('gulp'),
     sass = require('gulp-sass'),
 
-    clean = require('gulp-clean'),
+    del = require('del'),
 
     usemin = require('gulp-usemin'),
     rev = require('gulp-rev'),
@@ -10,13 +10,11 @@ var gulp = require('gulp'),
     livereload = require('gulp-livereload');
 
 var distDir = './dist';
-var env = process.env.NODE_ENV || 'development';
 
 // Clean
 // ==============================================
-gulp.task('clean', function() {
-  return gulp.src(['.tmp', './dist'], { read: false })
-    .pipe(clean());
+gulp.task('clean', function(cb) {
+  del([distDir], cb);
 });
 
 // Sass
